@@ -1,0 +1,175 @@
+/* GENERAL SETTINGS */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  color: white;
+}
+
+body {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid rgba(60, 126, 222, 0.8);
+  border-radius: 10px;
+  background-color: rgba(219, 84, 75, 0.99);
+  width: 85vw;
+  margin-top: 20px;
+}
+
+#main div {
+  padding: 20px;
+}
+
+/* HEADER SECTION */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+/* HEADER IMAGE - DO NOT CHANGE AS WILL BREAK FCC TEST */
+#img-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: auto;
+}
+
+/* HEADER IMAGE - DO NOT CHANGE max-width & height AS WILL BREAK FCC TEST */
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  /* width: 200px; */
+}
+
+/* BIOGRAPHY SECTION */
+#tribute-info {
+  margin-bottom: 20px;
+}
+
+#biography-title {
+  padding: 20px;
+}
+
+.biography-text {
+  padding: 0px 40px 0px 40px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+/* IMAGE GALLERY SECTION */
+#img-gallery-title {
+  margin-top: 20px;
+}
+
+#img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 60vw;
+  height: auto;
+  margin-top: 20px;
+}
+
+.rocket-images {
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
+  width: 200px;
+}
+
+/* FOOTER SECTION  */
+
+#footer {
+  margin: 20px 0px 20px 0px;
+}
+
+/* MOBILE RESPONSIVENESS
+
+/* BELOW 750PX */
+@media only screen and (max-width: 750px) {
+  #title {
+    font-size: 1.5em;
+  }
+
+  #image {
+    width: 150px;
+  }
+
+  .rocket-images {
+    width: 150px;
+  }
+}
+
+/* ABOVE 1320PX */
+@media only screen and (min-width: 1320px) {
+  #image {
+    width: 250px;
+  }
+
+  .rocket-images {
+    width: 250px;
+  }
+}
+
+/* ABOVE 1499PX */
+@media only screen and (min-width: 1499px) {
+  #img-gallery {
+    width: 80vw;
+  }
+
+  .rocket-images {
+    width: 350px;
+  }
+}
+
+/* ABOVE 1749PX */
+@media only screen and (min-width: 1749px) {
+  #img-gallery {
+    width: 80vw;
+  }
+
+  .rocket-images {
+    width: 375px;
+  }
+}
+
+/* ABOVE 1870PX */
+@media only screen and (min-width: 1870px) {
+  #img-gallery {
+    width: 80vw;
+  }
+
+  .rocket-images {
+    width: 400px;
+  }
+} */
